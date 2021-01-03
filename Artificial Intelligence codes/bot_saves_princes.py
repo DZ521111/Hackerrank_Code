@@ -3,6 +3,7 @@ Author : Dhruv B Kakadiya
 
 '''
 
+# define the next move
 def nextMove(n,r,c,grid):
     pos_col_m = c
     pos_row_m = r
