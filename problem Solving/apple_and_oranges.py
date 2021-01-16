@@ -1,3 +1,7 @@
+'''
+Author : Dhruv B Kakadiya
+
+'''
 #!/bin/python3
 
 import math
@@ -15,7 +19,7 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
         appleDistance.append(a + i)
     for i in appleDistance:
         if (s <= i <= t):
-            appleCounter += 1 
+            appleCounter += 1
     for j in oranges:
         orangeDistance.append(b + j)
     for j in orangeDistance:
