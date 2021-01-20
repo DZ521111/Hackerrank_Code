@@ -1,3 +1,7 @@
+'''
+Author : Dhruv B Kakadiya
+
+'''
 def swap_case(s):
     return (s.swapcase())
 
